@@ -11,7 +11,9 @@
 // - Convex hull
 //       What is the polygon of smallest area that has set of n points in a given dimension
 
+
 #include <stdlib.h>
+#include <stdio.h>
 // qsort
 // void qsort(void *base, size_t nel, size_t width,
 //            int (*compare) (const void *, const void *));
@@ -38,4 +40,3 @@ int intcompare(int *i, int *j)
 // when extracted:
 //      the head will be empty, so you have to fill the head from the rightmost node
 
-// Mergesort
